@@ -1,6 +1,6 @@
-# study-share
+# 一个前端搬砖者的学习笔记 
 
-# 直播中遇到的坑（）
+# 直播中遇到的坑
 1，自动播放的问题（autoplay存在兼容性问题）
 ```javascript
 <script>
@@ -44,7 +44,7 @@ var player = $('#player')[0];if (player.webkitSupportsFullscreen) {
 ```
 
 2，伪全屏-样式全屏
-	1，点击全屏时，css3旋转实现全屏```css -webkit-transform: rotate(90deg) ```(键盘仍为竖屏模式)
+	1，点击全屏时，css3旋转实现全屏``` -webkit-transform: rotate(90deg) ```(键盘仍为竖屏模式)    
 	2，用户在点击全屏时，通过js api来控制webview旋转横屏、
 
 
